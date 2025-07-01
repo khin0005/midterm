@@ -1,0 +1,121 @@
+
+/* Reset and basic styling */
+*, *::before, *::after {
+    box-sizing: border-box;
+    
+}
+.container {
+    background-color:  #cfefeb;
+    width: 100%;
+    height: 100%;
+
+    
+}
+body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color:   #aad4cf;
+    padding: 0px 250px;
+}
+
+/* Header Style*/
+h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    position:absolute;
+    color: white;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+}
+
+
+#starfish1 {
+    width: 100%;
+
+}
+.wrapper {
+    padding: 6px;
+}
+
+
+.division1{
+    position: relative;
+   
+ 
+}
+
+
+ .navigation {
+    padding: 0;
+    text-align: center;
+}
+
+.navigation ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;   
+        font-size: 1.1rem;
+}
+
+.navigation li {
+    display: inline-block;
+    width: 33%;
+    padding: 10px;
+    border-left: 1px solid black;
+    font-size: 1.3rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.navigation li:first-child {
+    border-left: none;
+}
+
+
+
+#lonefish {
+    width: 200px;
+    float: left;
+    margin-right: 12px;
+}
+.clarflix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.facts {
+    padding-left: 20px;
+}
+
+#name, #email {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+   
+    
+}
+
+#textmessage {
+    width: 100%;
+    height: fit-content;
+    margin-top: 8px;
+}
+
+.button {
+    margin: 5px;
+    padding: 6px;
+}
+
+.visit {
+    font-size: 20px;
+}
+
+.tleft {
+    text-align: right;
+}
+
