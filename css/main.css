@@ -4,6 +4,7 @@
     box-sizing: border-box;
     
 }
+/*For Container*/
 .container {
     background-color:  #cfefeb;
     width: 100%;
@@ -11,6 +12,7 @@
 
     
 }
+/*Body*/
 body {
     margin: 0 auto;
     font-family: Arial, sans-serif;
@@ -29,24 +31,17 @@ h1 {
     width: 100%;
     z-index: 999;
 }
-
-
 #starfish1 {
     width: 100%;
-
 }
 .wrapper {
     padding: 6px;
 }
-
-
 .division1{
     position: relative;
-   
  
 }
-
-
+/*Navigation*/
  .navigation {
     padding: 0;
     text-align: center;
@@ -73,14 +68,12 @@ h1 {
     border-left: none;
 }
 
-
-
 #lonefish {
     width: 200px;
     float: left;
     margin-right: 12px;
 }
-.clarflix::after {
+.clearflix::after {
     content:"";
     display: block;
     clear: both;
@@ -89,15 +82,13 @@ h1 {
 .facts {
     padding-left: 20px;
 }
-
+/*Form*/
 #name, #email {
     width: 100%;
     margin-left: 0;
     margin-top: 8px;
     margin-bottom: 8px;
-    border: none;
-   
-    
+    border: none;   
 }
 
 #textmessage {
@@ -115,6 +106,7 @@ h1 {
     font-size: 20px;
 }
 
+/*Footer*/
 .tleft {
     text-align: right;
 }
