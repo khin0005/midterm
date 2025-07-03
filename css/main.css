@@ -108,7 +108,12 @@ h1 {
 }
 
 /*Footer*/
-.tleft {
+footer p {
+    background-color: #cfefeb;
+    height: 50px;
+    width: 100%;
+    padding: 3px;
+    margin: 0px;
     text-align: right;
 }
 
